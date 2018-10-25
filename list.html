@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>订单</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <link rel="stylesheet" href="css/2.css">
+    <body>
+        <div class="container">
+            <div class="headList">
+                <h3 class="bList">订&nbsp;单</h3> 
+            </div>
+            <!--导航栏-->
+            <div class="main">
+                <ul class="orderList">
+                    <li class="active">
+                        <a data-toggle="item" href="#all_list" class="allList">全部订单
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="item" href="#noPay_list" class="noPay">未付订单
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="item"  href="#quit_list" class="quit">退款
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--全部订单-->
+            <div class="details"> 
+                <div id="all_list" class="top_all fade in"> 
+                    <div class="all_1">
+                        <div class="guo_1">
+                            <img src="img/pot_071.jpg" alt="">
+                            <span class="guo_1_l">清油麻辣锅底</span>
+                            <span class="guo_1_r">x1</span>
+                        </div>
+                        <div class="guo_1_foo">
+                             <div class="guo_1_f">实付：
+                                <span class="guo_1_foot">￥98</span>
+                            </div>
+                        </div>
+                        <div class="guo_1_lst">
+                            <a href="#" class="guo_1_last">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="all_1">
+                        <div class="guo_1">
+                            <img src="img/1.jpg" alt="">
+                            <span class="guo_1_l">招牌虾滑</span>
+                            <span class="guo_1_r">x1</span>
+                        </div>
+                        <div class="guo_1_foo">
+                            <div class="guo_1_f">实付：
+                                <span class="guo_1_foot">￥48</span>
+                            </div>
+                        </div>
+                        <div class="guo_1_lst">
+                            <a href="#" class="guo_1_last">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="all_1">
+                        <div class="guo_1">
+                            <img src="img/2.jpg" alt="">
+                            <span class="guo_1_l">捞派五次芭莎鱼</span>
+                            <span class="guo_1_r">x1</span>
+                        </div> 
+                        <div class="guo_1_foo">
+                            <div class="guo_1_f">实付：
+                                 <span class="guo_1_foot">￥68</span>
+                            </div>
+                        </div>
+                        <div class="guo_1_lst">
+                                <a href="#" class="guo_1_last">查看详情</a>
+                        </div>
+                    </div>
+                </div>   
+                <div id="noPay_list" class="noPay_all fade ">
+                    <div class="noPay_head">
+                        <p>桌号:10</p>
+                        <p>订单号:12345678</p>
+                        <p>下单时间：2018-10-19</p> 
+                    </div>
+                    <div class="noPay_md">
+                        <a href="#"><img src="img/logo.png" alt="" class="noPay_img"></a>
+                        <p>订单已提交</p>
+                    </div>
+                    <div class="noPay_middle">
+                        <div class="noPay_details">
+                            <img src="img/pot_061.jpg" alt="" class="detail_img">
+                            <span class="noPay_1">x1</span>
+                            <span class="noPay_guo">清油麻辣锅底</span>
+                            <span class="noPay_price">￥<span class="price_m">98</span></span>
+                        </div>
+                        <div class="noPay_details">
+                            <img src="img/3.jpg" alt="" class="detail_img">
+                            <span class="noPay_1">x1</span>
+                            <span class="noPay_guo">有机香菇</span>
+                            <span class="noPay_price">￥<span class="price_m">38</span></span>
+                        </div>
+                        <div class="noPay_details">
+                            <img src="img/4.jpg" alt="" class="detail_img">
+                            <span class="noPay_1">x1</span>
+                            <span class="noPay_guo">有机木耳</span>
+                            <span class="noPay_price">￥<span class="price_m">38</span></span>
+                        </div> 
+                        <div class="noPay_details">
+                            <img src="img/5.jpg" alt="" class="detail_img">
+                            <span class="noPay_1">x3</span>
+                            <span class="noPay_guo">麻酱酱料</span>
+                            <span class="noPay_price">￥<span class="price_m">24</span></span>
+                        </div>  
+                        <div class="noPay_details">
+                            <img src="img/6.jpg" alt="" class="detail_img">
+                            <span class="noPay_1">x2</span>
+                            <span class="noPay_guo">蒜蓉酱料</span>
+                            <span class="noPay_price">￥<span class="price_m">16</span></span>
+                        </div>   
+                    </div>
+                    <div class="pay_foot">
+                        <div class="all_price">合计：<span class="total_price">338</span></div>
+                        <div style="clear:both"></div>
+                    </div>
+                    <div class="quick">
+                        <div class="pay_price">立即支付</div>
+                    </div>
+                </div>
+                <div id="quit_list" class="all_quit fade">
+                    <div class="noPay_md">
+                        <a href="#"><img src="img/logo.png" alt="" class="noPay_img"></a>
+                        <p>退款成功</p>
+                    </div>
+                    <div class="noPay_details">
+                        <img src="img/pot_061.jpg" alt="" class="detail_img">
+                        <span class="noPay_1">x1</span>
+                        <span class="noPay_guo">清油麻辣锅底</span>
+                        <span class="noPay_price">￥<span class="price_m">98</span></span>
+                        <div style="clear:both"></div>
+                        <div><a class="pay_price"  href="#">查看详情</a></div>
+                    </div>
+                </div> 
+            </div>        
+        </div>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script>
+            $("ul:has([data-toggle=item])").on("click","[data-toggle=item]",function(e){
+                e.preventDefault();
+                var $list=$(this); 
+                var id=$list.attr("href")
+                if(!$list.parent().is(".active")){  
+                   $list.parent().addClass("active")
+                      .siblings().removeClass("active") 
+                  if(!$(id).is(".in"))   
+                      $(id).addClass("in").siblings().removeClass("in")
+                      console.log(id)
+                }
+            })
+        </script>
+    </body>
+</html>
